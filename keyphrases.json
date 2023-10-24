@@ -1,0 +1,457 @@
+[
+    {
+        "frase": "七転び八起き",
+        "traduccion": "Caer siete veces, levantarse ocho.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "過去は未来の教科書",
+        "traduccion": "El pasado es el libro de texto del futuro.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "見ぬが花",
+        "traduccion": "Lo que no se ve es lo más hermoso.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "我田引水",
+        "traduccion": "Desviar el agua hacia tu propio campo.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "十人十色",
+        "traduccion": "Diez personas, diez colores.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "人は見かけによらぬもの",
+        "traduccion": "Las personas no siempre son lo que parecen.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "急がば回れ",
+        "traduccion": "Si tienes prisa, da un rodeo.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "知らぬが仏",
+        "traduccion": "La ignorancia es felicidad.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "猫に小判",
+        "traduccion": "Oro al gato.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "窮鼠猫を嚙む",
+        "traduccion": "Una rata acorralada morderá a un gato.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "花鳥風月",
+        "traduccion": "Experiencia de la belleza de la naturaleza.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "言葉より実行",
+        "traduccion": "Acciones en lugar de palabras.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "夜長の夢多し",
+        "traduccion": "Muchos sueños en una noche larga.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "石の上にも三年",
+        "traduccion": "Tres años sobre una piedra.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "朱に交われば赤くなる",
+        "traduccion": "Si te mezclas con el rojo, te volverás rojo.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "質実剛健",
+        "traduccion": "Ser verdadero, fuerte y firme.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "酒は百薬の長",
+        "traduccion": "El sake es el mejor de todos los remedios.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "継続は力なり",
+        "traduccion": "La persistencia es poder.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "武士道とは死ぬことと見つけたり",
+        "traduccion": "El camino del guerrero es encontrar la muerte.",
+        "autor": "Yamamoto Tsunetomo"
+    },
+    {
+        "frase": "一期一会",
+        "traduccion": "Una vez en la vida, un encuentro único.",
+        "autor": "Proverbio relacionado con la ceremonia del té"
+    },
+    {
+        "frase": "出る釘は打たれる",
+        "traduccion": "El clavo que sobresale será golpeado.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "石橋を叩いて渡る",
+        "traduccion": "Golpear un puente de piedra antes de cruzarlo.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "雨降って地固まる",
+        "traduccion": "Después de la lluvia, la tierra se endurece.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "焼け石に水",
+        "traduccion": "Echar agua en una piedra caliente.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "花より団子",
+        "traduccion": "Dulces antes que flores.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "広い海を知らない魚",
+        "traduccion": "Un pez que no conoce el vasto océano.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "蓼食う虫も好き好き",
+        "traduccion": "Cada insecto tiene su propia preferencia al comer hierbas.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "井の中の蛙大海を知らず",
+        "traduccion": "Un sapo en un pozo no conoce el gran océano.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "風の前の点滅",
+        "traduccion": "Un destello ante el viento.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "鵜の真似をする鴉",
+        "traduccion": "El cuervo imitando al cormorán.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "猫も杓子も",
+        "traduccion": "Todos y cada uno.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "笑う門には福来る",
+        "traduccion": "La fortuna viene a la puerta que sonríe.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "夏炉冬扇",
+        "traduccion": "Estufa en verano, abanico en invierno.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "木を見て森を見ず",
+        "traduccion": "Ver el árbol y no el bosque.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "噂をすれば影",
+        "traduccion": "Si hablas de alguien, su sombra aparece.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "乗りかかった船",
+        "traduccion": "El barco en el que ya has embarcado.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "悪銭身に付かず",
+        "traduccion": "El dinero mal ganado no se queda.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "明日の百より、今日の五十",
+        "traduccion": "Cincuenta hoy es mejor que cien mañana.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "弘法も筆の誤り",
+        "traduccion": "Incluso el maestro comete errores al escribir.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "沈む瀬あれば浮かぶ瀬あり",
+        "traduccion": "Si hay un lugar donde te hundes, hay un lugar donde flotas.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "覆水盆に返らず",
+        "traduccion": "No puedes devolver el agua derramada.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "義理堅い",
+        "traduccion": "Ser fiel a tus obligaciones.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "虻蜂取らず",
+        "traduccion": "No atrapar ni abejas ni avispas.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "井戸の蛙",
+        "traduccion": "El sapo del pozo.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "釈迦に説法",
+        "traduccion": "Predicarle al Buda.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "月と鼈",
+        "traduccion": "El mes y la tortuga.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "八方美人",
+        "traduccion": "Belleza en todas direcciones (persona que trata de complacer a todos).",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "塵も積もれば山となる",
+        "traduccion": "Incluso el polvo, cuando se acumula, se convierte en una montaña.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "始めは小さな一歩から",
+        "traduccion": "Todo comienza con un pequeño paso.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "千里の道も一歩から",
+        "traduccion": "Un viaje de mil millas comienza con un solo paso.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "楽あれば苦あり",
+        "traduccion": "Si hay placer, hay dolor.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "古池や 蛙飛びこむ 水の音",
+        "traduccion": "Viejo estanque, una rana salta, el sonido del agua.",
+        "autor": "Matsuo Basho"
+    },
+    {
+        "frase": "猫の手も借りたい",
+        "traduccion": "Quisiera incluso pedir prestadas las manos de un gato.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "後悔先に立たず",
+        "traduccion": "El arrepentimiento no viene primero.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "鰯の頭も信心から",
+        "traduccion": "Incluso la cabeza de una sardina puede ser objeto de veneración.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "寄らば大樹の陰",
+        "traduccion": "Si te acercas, busca la sombra de un árbol grande.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "笛吹けども踊らず",
+        "traduccion": "Toco la flauta pero no bailas.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "情けは人のためならず",
+        "traduccion": "La compasión no es solo para el beneficio de otros.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "案ずるより生むが易し",
+        "traduccion": "Dar a luz es más fácil que preocuparse.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "馬鹿は死ななきゃ治らない",
+        "traduccion": "Un tonto no se curará a menos que muera.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "身から出た錆",
+        "traduccion": "Óxido que proviene de uno mismo.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "捕らぬ狸の皮算用",
+        "traduccion": "Contar las pieles de mapaches que aún no has cazado.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "七十の手習い",
+        "traduccion": "Aprender algo nuevo a los 70 años.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "山椒は小粒でもぴりりと辛い",
+        "traduccion": "El pimiento japonés es pequeño pero picante.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "石に泳ぐ魚",
+        "traduccion": "Un pez nadando en una piedra.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "酒の力",
+        "traduccion": "El poder del sake.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "豚に真珠",
+        "traduccion": "Perlas para cerdos.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "蛇の道は蛇",
+        "traduccion": "El camino de una serpiente es hecho por una serpiente.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "門前の小僧習わぬ経を読む",
+        "traduccion": "El niño frente al templo recita sutras que no ha aprendido.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "旅は道連れ、世は情け",
+        "traduccion": "En un viaje, un compañero de viaje; en la vida, compasión.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "飛んで火に入る夏の虫",
+        "traduccion": "Los insectos de verano vuelan hacia el fuego.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "秋茄子は嫁に食わすな",
+        "traduccion": "No dejes que tu nuera coma berenjenas en otoño.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "目は口ほどに物を言う",
+        "traduccion": "Los ojos hablan tanto como la boca.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "大は小を兼ねる",
+        "traduccion": "Lo grande sirve para lo pequeño.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "狐の嫁入り",
+        "traduccion": "La boda del zorro (refiriéndose a un sol inesperado durante la lluvia).",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "頭隠して尻隠さず",
+        "traduccion": "Esconder la cabeza pero no el trasero.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "赴く末を見ず",
+        "traduccion": "No mires la dirección a la que te diriges.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "子に教えよ、孫に教えよ",
+        "traduccion": "Enseña a tus hijos, enseña a tus nietos.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "義を見てせざるは勇無きなり",
+        "traduccion": "No hacer lo que es correcto cuando lo ves es no tener coraje.",
+        "autor": "Confucio (adaptado al japonés)"
+    },
+    {
+        "frase": "三度目の正直",
+        "traduccion": "La tercera vez es la vencida.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "花より団子",
+        "traduccion": "Dulces antes que flores.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "蓼食う虫も好きずき",
+        "traduccion": "Cada insecto tiene su gusto.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "青菜に塩",
+        "traduccion": "Como sal en las verduras.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "石の上にも三年",
+        "traduccion": "Tres años en una piedra.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "浮世をのぞく",
+        "traduccion": "Mirar el mundo flotante.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "犬も歩けば棒に当たる",
+        "traduccion": "Si un perro camina, se encontrará con un palo.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "見ぬが花",
+        "traduccion": "Lo que no ves es más hermoso.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "死人に口無し",
+        "traduccion": "Los muertos no hablan.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "百聞は一見にしかず",
+        "traduccion": "Ver una vez es mejor que escuchar cien veces.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "一期一会",
+        "traduccion": "Una vez en la vida, un encuentro único.",
+        "autor": "Proverbio japonés"
+    },
+    {
+        "frase": "石橋を叩いて渡る",
+        "traduccion": "Golpear el puente de piedra antes de cruzarlo.",
+        "autor": "Proverbio japonés"
+    }
+]

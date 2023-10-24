@@ -1,0 +1,207 @@
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(../fonts/Raleway-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/Raleway-Light.ttf) format('truetype');
+}
+
+
+/* HTML & BODY*/
+html {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to top, rgb(89, 60, 60) 0%, rgb(137, 83, 83) 100%);
+}
+body{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  max-width: 700px;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  flex-flow: column;
+  color: hsla(0, 0%, 13%, 1);
+
+}
+.manifesto {
+  text-align: justify;
+}
+.manifesto h1 {
+  text-align: center;
+}
+/* HEADER */
+header{
+  order: 1;
+  margin-top: 2rem;
+}
+header h1{
+  color: rgb(50, 172, 86);
+  margin-bottom: 0;
+
+}
+header h1:hover{
+  animation: hue 1.5s linear infinite;
+}
+header h2{
+  font-style: italic;
+  animation: hue 1.5s linear infinite;
+
+}
+.avatar{
+  margin: 1rem;
+  width: 15rem;
+  height: auto;
+  border-radius: 10%;
+}
+
+/* BTNS NAV */
+nav{
+  order: 2;
+  color: rgb(3, 197, 13);
+}
+.contact{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.contact li {
+  margin: 5px;
+  padding: 5px;
+  display: inline;
+  list-style-position: inside;
+}
+.contact li a {
+  color: inherit;
+  text-decoration: none;
+}
+.contact li a:hover i{
+  animation: hue 1.5s linear infinite;
+}
+.eventos{
+  order: 3;
+}
+.projects{
+  order: 4;
+}
+footer{
+  order: 5;
+  margin-bottom: 1px;
+}
+.textshow{
+  order: 4;
+  animation: hue 1.5s linear infinite;
+}
+a {
+  color: rgb(75, 32, 135);
+  text-decoration: none;
+}
+a:hover {
+  animation: hue 1.5s linear infinite;
+  text-decoration: underline;
+}
+.location {
+  color: hsla(0, 0%, 13%, 1);
+  font-style: italic;
+}
+.projects i{
+  color: rgb(147, 28, 106);
+}
+.projects i:hover{
+  animation: hue 1.5s linear infinite;
+}
+ @keyframes hue {
+  0% {color: hsla(0, 50%, 50%, 1);}
+  10% {color: hsla(30, 50%, 50%, 1);}
+  20% {color: hsla(60, 50%, 50%, 1);}
+  30% {color: hsla(90, 50%, 50%, 1);}
+  40% {color: hsla(120, 50%, 50%, 1);}
+  50% {color: hsla(150, 50%, 50%, 1);}
+  60% {color: hsla(180, 50%, 50%, 1);}
+  70% {color: hsla(210, 50%, 50%, 1);}
+  80% {color: hsla(240, 50%, 50%, 1);}
+  90% {color: hsla(270, 50%, 50%, 1);}
+  100% {color: hsla(0, 50%, 50%, 1);}
+
+}
+@keyframes hue-fill {
+  0% {fill: hsla(0, 50%, 50%, 1);}
+  10% {fill: hsla(30, 50%, 50%, 1);}
+  20% {fill: hsla(60, 50%, 50%, 1);}
+  30% {fill: hsla(90, 50%, 50%, 1);}
+  40% {fill: hsla(120, 50%, 50%, 1);}
+  50% {fill: hsla(150, 50%, 50%, 1);}
+  60% {fill: hsla(180, 50%, 50%, 1);}
+  70% {fill: hsla(210, 50%, 50%, 1);}
+  80% {fill: hsla(240, 50%, 50%, 1);}
+  90% {fill: hsla(270, 50%, 50%, 1);}
+  100% {fill: hsla(0, 50%, 50%, 1);}
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    background-image: none;
+    background-color: hsla(0, 0%, 7%, 1)
+  }
+  body {
+    color: hsla(0, 0%, 97%, 1);
+  }
+  .location {
+    color: hsla(0, 0%, 97%, 1);
+  }
+}
+
+ .octicon {
+  color: hsla(0, 0%, 96%, 1);
+  position: fixed;
+  top: 0;
+  border: 0;
+  right: 0;
+  fill:rgb(148, 18, 18);
+}
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out;
+}
+.github-corner:hover .octicon {
+  animation: hue-fill 1.5s linear infinite;
+}
+@keyframes octocat-wave {
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+
+  20%,
+  60% {
+    transform: rotate(-25deg);
+  }
+
+  40%,
+  80% {
+    transform: rotate(10deg);
+  }
+}
+@media (max-width:500px) {
+  .github-corner:hover .octo-arm {
+    animation: none;
+  }
+
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .octicon {
+    color: hsla(0, 0%, 7%, 1);
+  }
+}
+ 
