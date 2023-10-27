@@ -24,7 +24,7 @@ html {
 body{
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
-  max-width: 700px;
+  max-width: 800px;
   text-align: center;
   margin: auto;
   display: flex;
@@ -94,7 +94,6 @@ nav{
 }
 footer{
   order: 5;
-  margin-bottom: 1px;
 }
 .textshow{
   order: 4;
@@ -167,12 +166,7 @@ a:hover {
   right: 0;
   fill:rgb(148, 18, 18);
 }
-.github-corner:hover .octo-arm {
-  animation: octocat-wave 560ms ease-in-out;
-}
-.github-corner:hover .octicon {
-  animation: hue-fill 1.5s linear infinite;
-}
+ 
 @keyframes octocat-wave {
   0%,
   100% {
@@ -189,19 +183,25 @@ a:hover {
     transform: rotate(10deg);
   }
 }
-@media (max-width:500px) {
-  .github-corner:hover .octo-arm {
-    animation: none;
-  }
-
-  .github-corner .octo-arm {
-    animation: octocat-wave 560ms ease-in-out;
-  }
-}
-
+ 
 @media (prefers-color-scheme: dark) {
   .octicon {
     color: hsla(0, 0%, 7%, 1);
   }
 }
  
+
+@keyframes blinking {
+  0% {
+      opacity: 1;
+  }
+  50% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+.blinking {
+  animation: blinking 1.2s infinite;
+}
