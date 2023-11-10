@@ -13,3 +13,27 @@ document.addEventListener('DOMContentLoaded', function() {
     })
     .catch(error => console.error('Error:', error));
 });
+
+
+ 
+function loadLocale(locale) {
+    fetch(`locales/${locale}.json`)
+      .then(response => response.json())
+      .then(translations => {
+        document.querySelectorAll("[data-i18n]").forEach(el => {
+          const key = el.getAttribute("data-i18n");
+          el.textContent = translations[key] || el.textContent;
+        });
+      })
+      .catch(error => console.error("Error loading locale:", error));
+  }
+  
+  document.addEventListener("DOMContentLoaded", () => {
+    // Carga inicial en español
+    loadLocale("es");
+  
+    // Manejadores para botones de cambio de idioma
+    document.getElementById("lang-es").addEventListener("click", () => loadLocale("es"));
+    document.getElementById("lang-en").addEventListener("click", () => loadLocale("en"));
+  });
+  

@@ -19,8 +19,12 @@
 html {
   width: 100%;
   height: 100%;  
-  background-image: linear-gradient(to top, rgb(6, 5, 4) 0%, rgba(139, 105, 78, 0.394) 100%);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.106) 0%, rgb(55, 48, 48) 100%);
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-attachment: fixed; /* Opcional: fija el fondo para que no se mueva con el scroll */
+  background-size: cover; /* Asegura que el fondo cubra completamente el elemento */
 }
+
 body{
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
@@ -32,19 +36,14 @@ body{
   color: hsla(0, 0%, 13%, 1);
 
 }
-.manifesto {
-  text-align: justify;
-}
-.manifesto h1 {
-  text-align: center;
-}
+ 
 /* HEADER */
 header{
   order: 1;
   margin-top: 2rem;
 }
 header h1{
-  color: rgb(50, 172, 86);
+  color: rgb(131, 0, 100);
   margin-bottom: 0;
 
 }
@@ -53,8 +52,7 @@ header h1:hover{
 }
 header h2{
   font-style: italic;
-  animation: hue 1.5s linear infinite;
-
+ 
 }
 .avatar{
   margin: 1rem;
@@ -66,7 +64,7 @@ header h2{
 /* BTNS NAV */
 nav{
   order: 2;
-  color: rgb(3, 197, 13);
+  color: rgb(131, 0, 100);
 }
 .contact{
   list-style: none;
@@ -89,7 +87,7 @@ nav{
 .eventos{
   order: 3;
 }
-.projects{
+.concursos{
   order: 4;
 }
 footer{
@@ -111,11 +109,17 @@ a:hover {
   color: hsla(0, 0%, 13%, 1);
   font-style: italic;
 }
-.projects i{
+.concursos i{
   color: rgb(147, 28, 106);
 }
-.projects i:hover{
+.concursos i:hover{
   animation: hue 1.5s linear infinite;
+}
+.eventos i:hover{
+  animation: hue 1.5s linear infinite;
+}
+.eventos i{
+  color: rgb(147, 28, 106);
 }
  @keyframes hue {
   0% {color: hsla(0, 50%, 50%, 1);}
@@ -204,4 +208,71 @@ a:hover {
 }
 .blinking {
   animation: blinking 1.2s infinite;
+}
+
+
+/* Estilos específicos para el div manifesto */
+.manifesto {
+  max-width: 800px;
+  margin: 50px auto; /* Aumenta el margen superior e inferior para dar más espacio */
+  background-color: #fffefe; /* Un blanco ligeramente apagado es menos duro para los ojos */
+  padding: 30px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 15px; /* Bordes un poco más redondeados */
+  border: 1px solid #eaeaea; /* Un borde sutil */
+}
+
+.manifesto h1 {
+  font-family: 'Merriweather', serif;
+  color: #2c3e50; /* Un azul oscuro/gris para un aspecto sofisticado */
+  text-align: center;
+  margin-bottom: 2rem; /* Más espacio debajo del título */
+}
+
+.manifesto p {
+  font-family: 'Raleway', sans-serif; /* Asegúrate de usar Raleway para el texto del párrafo */
+  font-size: 18px; /* Un tamaño de fuente ligeramente más grande para la lectura */
+  text-align: justify;
+  line-height: 1.6; /* Espaciado de línea para mejorar la legibilidad */
+  margin-bottom: 1.5rem; /* Espacio uniforme entre párrafos */
+  color: #34495e; /* Un gris oscuro para el texto */
+}
+
+/* Asegúrate de que el último párrafo no tenga un margen en la parte inferior */
+.manifesto p:last-child {
+  margin-bottom: 0;
+}
+
+/* Puedes incluir una fuente de Google Fonts para el título si deseas algo más distintivo */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+.manifesto h1 {
+  font-family: 'Merriweather', serif; /* Fuente con serifa para el título */
+  font-weight: 700; /* Fuente en negrita */
+}
+
+/*language btn*/
+
+.language-selector {
+  position: fixed; /* Cambiar según necesidad */
+  top: 20px;
+  right: 20px;
+  background-color: #f8f8f8;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.language-selector button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.language-selector button:focus {
+  outline: none;
+}
+.language-selector button:hover{
+  animation: hue 1.5s linear infinite;
 }

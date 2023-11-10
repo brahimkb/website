@@ -5,37 +5,135 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, user-scalable=0, initial-scale=1">
-  <title>Brahim ikigai🥢 - Mantenimiento</title>
+  <!-- ================== TITLE ================== -->
+  <title>Brahim ikigai🥢</title>
+  <!-- ================== OTHER ================== -->
   <link data-vue-tag="ssr" rel="icon" type="image/png" sizes="96x96" href="favicon.png" />
   <meta name="description" content="Brahim ikigai — SushiMan, Entusiasta del sushi y amante de la cocina japonesa">
   <meta name="theme-color" content="#0091ea">
+  <!-- ================== STYLE ================== -->
   <link href="css/font-awesome.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet" type="text/css">
-  <style>
-    .maintenance-message {
-      font-size: 1.5em;
-      margin: 50px;
-      padding: 20px;
-      border: 3px solid #0091ea;
-      text-align: center;
-    }
-  </style>
 </head>
 
 <body>
   <header>
+    <img class="avatar" src="image/profile.png" alt="Profile Photo">
     <h1>Brahim ikigai</h1>
-    <h2>Entusiasta del sushi y amante de la cocina japonesa</h2>
+    <h2 data-i18n="headerTitle"></h2>
   </header>
-
-  <div class="maintenance-message">
-    <p>🚧 El sitio web está actualmente en mantenimiento. 🚧</p>
-    <p>¡Regresa pronto para explorarlo :)</p>
+  <div class="language-selector">
+    <button id="lang-es">ES</button> | <button id="lang-en">EN</button>
   </div>
+  <nav>
+    <ul class="contact">
+      <li>
+        <a href="mailto:bra2000@proton.me?subject=contact">
+          <i class="fa fa-envelope fa-2x"></i>
+        </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://www.restaurantkintsugi.com/">
+          <i class="fa fa-cutlery fa-2x"></i>
+        </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://www.linkedin.com/in/brahiiimkb">
+          <i class="fa fa-linkedin fa-2x"></i>
+        </a>
+      </li>
+      <li>
+        <a href="manifesto.html">
+          <i class="fa fa-institution fa-2x"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <section class="eventos">
+    <h3 data-i18n="eventsTitle"></h3>
+ 
+    <span>
+      <p>
+        <a href="https://www.google.es/search?q=Amposta,+Spain"  target="_blank">Boda Laura & Javier</a>
+        —
+        <a class="location" href="https://www.google.es/search?q=Amposta,+Spain"  target="_blank">Amposta</a>, Enero 2023
+        <i class="fa fa-check-circle-o"></i>
+      </p>
+    </span>
 
+    <span>
+      <p>
+        <a href="https://www.google.es/search?q=Deltebre,+Spain"  target="_blank">Boda Carla & José</a>
+        —
+        <a class="location" href="https://www.google.es/search?q=Deltebre,+Spain"  target="_blank">Deltebre</a>, Diciembre 2022
+        <i class="fa fa-check-circle-o"></i>
+      </p>
+    </span>
+
+    <span>
+      <p>
+        <a href="https://www.google.es/search?q=damialves,+Spain"  target="_blank">Sushi Fiesta Privada Dani Alves</a>
+        —
+        <a class="location" href="https://www.google.es/search?q=damialves,+Spain"  target="_blank">Sushi Fiesta Privada Dani Alves</a>, Agosto 2022
+        <i class="fa fa-check-circle-o"></i>
+      </p>
+    </span>
+    <span>
+      <p>
+        <a href="https://www.google.es/search?q=spotifycampnou,+Spain"  target="_blank">Sushi Camp Nou Barcelona vs Madrid</a>
+        —
+        <a class="location" href="https://www.google.es/search?q=spotifycampnou,+Spain"  target="_blank">Sushi Camp Nou Barcelona vs Madrid</a>, Octubre 2022
+        <i class="fa fa-check-circle-o"></i>
+      </p>
+    </span>
+  </section>
+  <section class="concursos">
+    <h3 data-i18n="contestsTitle"></h3>
+
+    <span>
+      <p>
+        <a href="https://www.google.es/search?q=caldes%20de%20reina%2C+Portugal" target="_blank">Sushi P Caldas da Rainha</a>
+        —
+        <a class="location" href="https://www.google.es/search?q=caldes%20de%20reina%2C+Portugal"  target="_blank">Lisboa</a>, Noviembre 2023
+        <span class="blinking">🥢</span>
+      </p>
+    </span>
+
+     <span>
+      <p>
+        <a href="https://balfego.com/itamae-vuelve-a-madrid-2023/"  target="_blank">Itamae balfegó 2023</a>
+        —
+        <a class="location" href="https://www.google.es/search?q=Madrid%2C+Spain"  target="_blank">Madrid</a>, Julio 2023
+        <i class="fa fa-check-circle-o"></i>
+        <!--if win active this-->
+        <!--   <i class="fa fa-trophy" title="mobility: fleetboard – trucks x code challenge"></i>  -->
+      </p>
+    </span>
+    <span>
+      <p>
+        <a href="https://balfego.com/itamae-vuelve-a-madrid-2022/"  target="_blank">Itamae balfegó 2022</a>
+        —
+        <a class="location" href="https://www.google.es/search?q=Madrid%2C+Spain"  target="_blank">Madrid</a>, Junio 2022
+        <i class="fa fa-check-circle-o"></i>
+        <!--if win active this-->
+        <!--   <i class="fa fa-trophy" title="mobility: fleetboard – trucks x code challenge"></i>  -->
+      </p>
+    </span>
+    <span>
+      <p>
+        <a href="https://balfego.com/itamae-vuelve-a-madrid-2022/"  target="_blank">Sukumi Japanese Experience</a>
+        —
+        <a class="location" href="https://www.google.es/search?q=Tortosa%2C+Spain"  target="_blank">Tortosa</a>, Agosto 2021
+        <i class="fa fa-check-circle-o"></i>
+        <!--if win active this-->
+          <i class="fa fa-trophy" title="mobility: fleetboard – trucks x code challenge"></i>  
+      </p>
+    </span>
+  </section>
   <footer>
-    <p class="textshow" id="textshow"></p>
-  </footer>
+  <p class="textshow" id="textshow"></p>
+   </footer>
+  <!-- ================== SCRIPTS ================== -->
   <script src="js/main.js"></script>
 </body>
 
