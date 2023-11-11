@@ -98,15 +98,16 @@ footer{
   animation: hue 1.5s linear infinite;
 }
 a {
-  color: rgb(75, 32, 135);
+  color: rgb(147, 28, 106);
   text-decoration: none;
+  font-weight: bold;
 }
 a:hover {
   animation: hue 1.5s linear infinite;
   text-decoration: underline;
 }
 .location {
-  color: hsla(0, 0%, 13%, 1);
+  color: rgb(33, 33, 33);
   font-style: italic;
 }
 .concursos i{
