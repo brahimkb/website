@@ -1,103 +1,94 @@
-/* Estilos personalizados */
-body {
-    font-family: Arial, sans-serif;
+/* Limitar ancho de contenido */
+.content-wrapper {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
 }
 
-/* Encabezado */
-header {
-    background-color: #343a40;
+/* Fondo del encabezado */
+header.back {
+    background-color: #333;
     color: white;
     padding: 40px 0;
-    text-align: center;
 }
 
-header img {
-    width: 120px;
-    border-radius: 50%;
-    border: 3px solid #22D4FD;
-}
-
-header h1 {
-    font-size: 2.5rem;
-    margin-top: 15px;
-}
-
-header h2 {
-    font-size: 1.2rem;
-    font-weight: 300;
-    color: #b0bec5;
+/* Foto de perfil */
+.profile-photo {
+    width: 210px;
+    border-radius: 15%;
+    border: 3px solid #333;
 }
 
 /* Iconos sociales */
 .social-icons a {
-    color: #fff;
+    color: white;
     margin: 0 10px;
     font-size: 1.5rem;
 }
 
-/* Contenido principal */
-main {
-    padding: 40px 0;
-}
-
+/* Títulos */
 h3 {
     color: #22D4FD;
     text-align: center;
-    margin-bottom: 20px;
+    margin-top: 30px;
 }
 
-.bio, .skills, .experience {
-    margin-bottom: 40px;
-}
-
-.skills ul, .experience ul {
-    list-style-type: none;
+/* Listas de contenido */
+ul {
+    list-style: none;
     padding: 0;
 }
 
-.skills li, .experience li {
-    padding: 8px 0;
-    font-size: 1.1rem;
+ul li {
+    margin-bottom: 10px;
 }
 
-/* Footer */
+/* Estilo del pie de página */
 footer {
-    background-color: #343a40;
+    background-color: #333;
     color: white;
     text-align: center;
-    padding: 20px 0;
-    font-size: 0.9rem;
+    padding: 10px 0;
 }
 
 footer a {
     color: #FFD700;
 }
 
-header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #333;
+/*boton de fotos*/
+/* Estilos de los iconos sociales */
+.social-icons a {
     color: white;
-    padding: 20px;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: transform 0.3s;
+    text-decoration: none; /* Eliminar el subrayado en todos los enlaces */
 }
 
-.image-box {
-    width: 200px; /* Ajusta el tamaño de la caja */
+/* Efecto de zoom en el hover para todos los iconos */
+.social-icons a:hover {
+    transform: scale(1.1);
 }
 
-.decorative-image {
-    width: 100%;
-    height: auto;
-    border-radius: 10px; /* Opcional: para bordes redondeados */
+/* Estilo específico para el botón de fotos */
+.photos-btn {
+    font-weight: bold;
+    font-size: 1.3rem;
+    animation: colorBlink 1.5s infinite;
+    display: inline-flex;
+    align-items: center;
 }
 
-.profile-info {
-    text-align: center;
+/* Icono de cámara y texto alineados */
+.photos-btn i {
+    margin-right: 5px;
 }
 
-.profile-photo {
-    width: 120px;
-    border-radius: 50%;
-    border: 3px solid #22D4FD;
+/* Animación de parpadeo con colores cambiantes */
+@keyframes colorBlink {
+    0% { color: #FFD700; }    /* Dorado */
+    25% { color: #FF6347; }   /* Rojo Tomate */
+    50% { color: #00FA9A; }   /* Verde Menta */
+    75% { color: #1E90FF; }   /* Azul Dodger */
+    100% { color: #FFD700; }  /* Vuelve al dorado */
 }
