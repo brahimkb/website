@@ -3,41 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre mi</title>
+    <title>Brahim Ikigai 🥢 - Sobre Mí</title>
+    <link data-vue-tag="ssr" rel="icon" type="image/png" sizes="96x96" href="favicon.png" />
+    <meta name="description" content="Brahim Ikigai — SushiMan, entusiasta del sushi y amante de la cocina japonesa">
+    <meta name="theme-color" content="#0091ea">
     <link rel="stylesheet" href="styles/style.css">
-
-    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet"> 
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header"> 
+    <header class="header">
         <nav class="header-menu">
-            <a class="header-menu-link" href="index.html">Home</a>
-            <a class="header-menu-link" href="about.html">Sobre mi</a>
-            <a class="header-menu-link" href="curriculum.html">Curriculum</a>
+            <a class="header-menu-link" href="index.html">Inicio</a>
+            <a class="header-menu-link" href="about.html">Sobre mí</a>
+            <a class="header-menu-link" href="curriculum.html">Currículum</a>
         </nav>
     </header>
-    <main> 
-        <div class="main-content">
-            <h1 class="titulo1-sobre-mi">Sobre mi</h1>
-            <p class="parrafos">Soy Juan Carlos Sanabria, un ingeniero informático de 29 años, originario de Armenia, Quindío. Egresado de la Universidad Internacional 
-                de La Rioja (UNIR), donde obtuve una sólida formación que complementé con un diplomado en Análisis de Datos. Apasionado por la programación y 
-                la tecnología, siempre he estado fascinado por cómo las herramientas digitales pueden transformar ideas en realidades tangibles.</p>
-    
-            <p class="parrafos">Además, poseo un nivel B1 certificado en inglés, lo que me permite acceder a recursos y colaborar en un entorno global. Estoy entusiasmado por iniciar 
-            mi trayectoria laboral y contribuir con mi conocimiento y habilidades para el desarrollo de soluciones innovadoras. Estoy decidido a aprovechar cada 
-            oportunidad para crecer y aprender en este apasionante mundo tecnológico.</p>
+    <main>
+        <div class="main-content card" data-aos="fade-up">
+            <h1 class="titulo1-sobre-mi">Sobre mí</h1>
+            <p class="parrafos">Soy Brahim Ikigai, chef de sushi con una dedicación inquebrantable y pasión profunda por este arte culinario. He competido en el Campeonato de España, logrando un cinturón negro en sushi, y participé en el Campeonato de Europa, donde obtuve el sexto lugar, un logro que refleja mi compromiso y perfeccionamiento constante.</p>
+            <p class="parrafos">Además, poseo un nivel B1 certificado en inglés, lo que me permite acceder a recursos internacionales y colaborar en un entorno global. Estoy siempre en busca de nuevos desafíos para seguir creciendo en este arte y dejar una huella significativa en el mundo de la gastronomía.</p>
+            <h2 data-aos="fade-up">Formación y Logros</h2>
+            <ul data-aos="fade-right">
+                <li>Cinturón Negro en Sushi bajo la guía del Sensei Ogawa Hirotoshi en Sushi Nagoya Schol, Portugal.</li>
+                <li>Competencias internacionales: Campeonato de España y Europa en sushi.</li>
+            </ul>
+            <h2 data-aos="fade-up">Experiencia Laboral</h2>
+            <ul data-aos="fade-right">
+                <li><strong>Sukomi Restaurante (2018 - 2022):</strong> Sushiman responsable de la preparación de sushi de alta calidad y la gestión de eventos privados personalizados.</li>
+                <li><strong>Xerta Restaurante Kintsugui - Estrella Michelin (2022 - 2024):</strong> Sushichef especializado en servicio de omakase y organización de eventos de alto nivel, incluyendo colaboraciones en el Camp Nou con el FC Barcelona.</li>
+            </ul>
         </div>
-        <div class="image-content">
-            <img src="images/foto.jpg" alt="Imagen de juan sanabria trabajando">
+        <div class="image-content" data-aos="fade-left">
+            <img src="images/foto.jpg" alt="Imagen de Brahim Ikigai trabajando">
         </div>
     </main>
-    <footer class="footer"> 
-        <p>Contacto: <a href="juansanabria.ing@gmail.com">juansanabria.ing@gmail.com</a></p>
-        <p>&copy; 2024 Juan Sanabria. Todos los derechos reservados.</p>
+    <footer class="footer">
+        <p>Contacto: <a href="mailto:bra2000@proton.me">bra2000@proton.me</a></p>
+        <p>&copy; 2024 Brahim Ikigai. Todos los derechos reservados.</p>
     </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

@@ -1,74 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum</title>
-    <link rel="stylesheet" href="styles/style.css">
+{% extends "base.html" %}
+{% block title %}Brahim Ikigai 🥢 - Currículum{% endblock %}
 
-    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet"> 
+{% block content %}
+<div class="text-center mb-4">
+    <h1 class="display-4">Currículum de Brahim Ikigai</h1>
+    <p class="lead text-muted">Chef de Sushi | Experiencia Internacional</p>
+</div>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
-<body>
-    <header class="header"> 
-        <nav class="header-menu">
-            <a class="header-menu-link" href="index.html">Home</a>
-            <a class="header-menu-link" href="about.html">Sobre mi</a>
-            <a class="header-menu-link" href="curriculum.html">Curriculum</a>
-        </nav>
-    </header>
-    <main>
-        <div class="main-content2">
-            <h1 class="titulo1-curriculum">Perfil profesional</h1>
-            <p class="parrafos-curriculum">Ingeniero informático, egresado de la Universidad Internacional de La Rioja (UNIR), con un diplomado en Análisis de Datos. 
-            Mi formación me ha dotado de habilidades en programación y análisis, enfocándome en la creación de soluciones tecnológicas que optimicen procesos y generen
-            valor. Poseo un nivel B1 certificado en inglés, lo que me permite colaborar eficazmente en entornos globales. Estoy listo para iniciar mi carrera 
-            profesional y contribuir con mi conocimiento y pasión por la tecnología.</p>
-    
-            <h1 class="titulo1-curriculum">Experiencia profesional</h1>
-            <h2 class="titulo2-curriculum">Proyectos academicos y personales</h2>
-            <ol>
-                <li>
-                    <p class="parrafos-curriculum"><strong>Desarrollo de un Juego en JavaScript:</strong> Diseñé y programé un juego interactivo llamado 'Juego del Número Secreto', el cual
-                    incluye funcionalidades como la generación de números aleatorios y la validación de intentos del usuario. Este proyecto me permitió afianzar mis
-                    conocimientos en lógica de programación y uso de arrays.</p>
-                </li>
-                <li>
-                <p class="parrafos-curriculum"><strong>Análisis de Datos en la Gestión Educativa:</strong> Durante mi diplomado en Análisis de Datos, realicé un análisis exhaustivo
-                de los resultados de las pruebas Saber, utilizando Python y sus bibliotecas para la visualización de datos, lo que ayudó a identificar áreas clave
-                de mejora en el rendimiento estudiantil.</p>
-                </li>
-            </ol>
-            <h1 class="titulo2-curriculum">Cursos y certificaciones</h1>
-            <ul>
-                <li>
-                    <p class="parrafos-curriculum">Oracle next education</p>
-                </li>
-            </ul>
-            
-            <h1 class="titulo1-curriculum">Educacion</h1>
-            <ul>
-                <li>
-                <p class="parrafos-curriculum">Pregrado en Ingenieria Informatica</p>
-                </li>
-                <li>
-                <p class="parrafos-curriculum">Diplomado en analitica de datos en la gestion empresarial</p>
-                </li>
-                <li>
-                <p class="parrafos-curriculum">Ingles B1 en academia SMART</p>
-                </li>
-            </ul>
-        </div>
-        <div class="image-content">
-            <img src="images/foto.jpg" alt="Imagen de juan sanabria trabajando">
-        </div>
-    </main>
-    <footer class="footer"> 
-        <p>Contacto: <a href="juansanabria.ing@gmail.com">juansanabria.ing@gmail.com</a></p>
-        <p>&copy; 2024 Juan Sanabria. Todos los derechos reservados.</p>
-    </footer>
-</body>
-</html>
+<section class="mb-5">
+    <h2 class="h3">Perfil Profesional</h2>
+    <p>Chef de sushi con años de experiencia en competencias nacionales e internacionales, especializado en el arte del sushi de alta calidad. Dedicado a perfeccionar técnicas y a ofrecer una experiencia gastronómica única.</p>
+</section>
+
+<section class="mb-5">
+    <h2 class="h3">Aptitudes</h2>
+    <ul class="list-unstyled">
+        <li><strong>Excelencia en técnicas de sushi:</strong> Manejo de arroz, corte de pescado, nigiri, maki y omakase.</li>
+        <li><strong>Higiene y seguridad alimentaria:</strong> Conocimientos avanzados en prevención de anisakis y control de temperatura.</li>
+        <li><strong>Selección de ingredientes:</strong> Experto en tratamiento y conservación de ingredientes frescos.</li>
+        <li><strong>Atención al cliente:</strong> Servicio personalizado en omakase y eventos privados.</li>
+    </ul>
+</section>
+
+<section class="mb-5">
+    <h2 class="h3">Educación</h2>
+    <ul class="list-unstyled">
+        <li><strong>Sensei Ogawa Hirotoshi - Sushi Nagoya Schol, Portugal:</strong> Cinturón Negro de Sushi Kuro-Obi, formación avanzada en técnicas de sushi.</li>
+    </ul>
+</section>
+
+<section class="mb-5">
+    <h2 class="h3">Experiencia Laboral</h2>
+    <ul class="list-unstyled">
+        <li><strong>Sukomi Restaurante (2018 - 2022):</strong> Sushiman responsable de calidad y eventos privados.</li>
+        <li><strong>Xerta Restaurante Kintsugui - Estrella Michelin (2022 - 2024):</strong> Sushichef especializado en omakase y eventos de alto nivel en Barcelona.</li>
+    </ul>
+</section>
+{% endblock %}
