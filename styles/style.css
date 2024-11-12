@@ -1,0 +1,183 @@
+/* Estilos generales */
+
+body {
+    background-color: #000000;
+    color: #F6F6F6;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+/* Estilos para el header */
+.header {
+    padding: 2% 0% 0% 15%;
+}
+
+.header-menu {
+   display: flex;
+   gap: 80px;
+}
+
+.header-menu-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #22D4FD;
+    text-decoration: none;
+}
+
+/* Estilos para el contenido principal */
+main {
+    padding: 3% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.main-content {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.titulo1-index {
+    font-size: 36px;
+    font-family: 'Krona one', sans-serif;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.titulo_destaque {
+    color: #22D4FD;
+}
+
+.parrafos {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.titulo-2 {
+    font-family: 'Krona one', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+/* Estilizar los enlaces "a" como botones */
+.presentacion-buttons {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    margin-top: 20px;
+}
+
+.presentacion-buttons a {
+    width: 378px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #F6F6F6;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid #22D4FD;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+a:hover {
+    background-color: #272727;
+}
+
+/* Imagen al lado derecho */
+.image-content {
+    position: absolute;
+    width: 488px;
+    height: 550px;
+    top: 235px;
+    left: 1030px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-content img {
+    max-width: 100%; /* Asegura que la imagen ocupe todo el contenedor */
+    max-height: 100%; /* Mantiene las proporciones de la imagen */
+    object-fit: cover; /* Ajusta la imagen para cubrir todo el espacio */
+    border-radius: 10px; /* Opcional: agrega bordes redondeados a la imagen */
+}
+
+/* Estilos del pie de página */
+.footer {
+    background-color: #22D4FD;
+    padding: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* PAGINA SOBRE MI */
+
+.titulo1-sobre-mi {
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+/* PAGINA CURRICULUM */
+.titulo1-curriculum {
+    font-size: 25px;
+    font-family: 'Krona One', sans-serif;
+    font-weight: bold;
+}
+
+.parrafos-curriculum {
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+ol {
+    padding: 16px; /* Ajusta según sea necesario */
+    margin: 0;
+    list-style-position: outside; /* Asegura que el punto esté dentro del padding */
+}
+
+ul {
+    padding: 16px; /* Ajusta según sea necesario */
+    margin: 0;
+    list-style-position: outside; /* Asegura que el punto esté dentro del padding */
+}
+
+.main-content2 {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
