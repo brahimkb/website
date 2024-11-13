@@ -96,26 +96,27 @@ footer a {
 
 
 
- /*platos*/
-
-
- .gallery {
+ /* Estilos de la galería */
+.gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 15px;
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 
 .gallery img {
-    width: 200px;
+    width: 100%;
+    max-width: 200px;
     height: auto;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+/* Efecto de ampliación al pasar el cursor */
 .gallery img:hover {
-    transform: scale(1.05);
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Añade una sombra más fuerte */
 }
