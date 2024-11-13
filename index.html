@@ -1,36 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brahim Ikigai 🥢 - CV</title>
+    <link data-vue-tag="ssr" rel="icon" type="image/png" sizes="96x96" href="favicon.ico" />
+    <title data-i18n="title">Brahim Ikigai 🥢</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="styles/style.css">
 </head>
-<div class="language-selector">
-    <button id="lang-es">ES</button>----<button id="lang-en">EN</button>
-</div>
 
 <body>
+    <div class="language-selector">
+        <button id="lang-es">ES</button>----<button id="lang-en">EN</button>
+    </div>
 
     <!-- Encabezado con foto y nombre -->
     <header class="back">
         <div class="content-wrapper text-center">
             <img src="images/caja.jpg" alt="Brahim Ikigai" class="profile-photo">
-            <h1>Brahim Ikigai</h1>
-            <h2>Chef de Sushi Profesional</h2>
-            <p>Chef de sushi con experiencia internacional, enfocado en la excelencia de la cocina japonesa.</p>
+            <h1 data-i18n="name">Brahim Ikigai</h1>
+            <h2 data-i18n="title_profession">Chef de Sushi Profesional</h2>
+            <p data-i18n="intro_text">Chef de sushi con experiencia internacional, enfocado en la excelencia de la cocina japonesa.</p>
             <div class="social-icons">
                 <a href="https://www.instagram.com/brahim_ikigai/" target="_blank"><i class="fab fa-instagram"></i></a>
                 <a href="https://www.linkedin.com/in/brahimikigai" target="_blank"><i class="fab fa-linkedin"></i></a>
                 <a href="mailto:bra2000@proton.me"><i class="fas fa-envelope"></i></a>
                 <a href="tel:+34631891703"><i class="fas fa-phone"></i></a>
-                <a href="extras.html" target="_blank" class="photos-btn"><i class="fas fa-camera"></i>Fotos</a>
+                <a href="extras.html" target="_blank" class="photos-btn" data-i18n="photos_button"><i class="fas fa-camera"></i>Fotos</a>
                 <span class="blinking">🥢</span>
             </div>
-
         </div>
     </header>
 
@@ -38,93 +37,67 @@
     <main class="container content-wrapper">
         <!-- Biografía -->
         <section class="bio text-center">
-            <h3>Biografía</h3>
-            <p>Soy un chef de sushi apasionado y dedicado, con una carrera impulsada por la búsqueda de la perfección en
-                el arte culinario japonés. He competido a nivel nacional e internacional, destacándome en el Campeonato
-                de España y Europa, donde obtuve el cinturón negro en sushi y el sexto lugar en Europa. Cada competencia
-                me ha enseñado la importancia de la disciplina, la paciencia y el perfeccionamiento constante en mi
-                arte.</p>
+            <h3 data-i18n="bio_title">Biografía</h3>
+            <p data-i18n="bio_content">Soy un chef de sushi apasionado y dedicado, con una carrera impulsada por la búsqueda de la perfección en el arte culinario japonés...</p>
         </section>
 
         <!-- Formación -->
         <section class="education">
-            <h3>Formación</h3>
+            <h3 data-i18n="education_title">Formación</h3>
             <ul>
-                <li><strong>Curso de Cocina INSTITUT DERTOSA Joaquin Bau</strong>, Formación especializada en técnicas
-                    de cocina.</li>
-                <li><strong>Sensei Ogawa Hirotoshi - Sushi Nagoya Schol, Portugal:</strong> Formación especializada en
-                    técnicas de sushi, abarcando el manejo del arroz, corte de pescado, nigiri, maki y omakase, además
-                    de conocimientos en higiene y seguridad alimentaria.</li>
-                <li><strong>Centurón Negro de Sushi (Kuro-Obi) - Sushi Nagoya Schol, Portugal:</strong> Especialización
-                    en técnicas de prevención de riesgos como el anisakis, con prácticas de congelación y conservación
-                    del pescado para mantener su frescura y calidad.</li>
+                <li data-i18n="education_course1"><strong>Curso de Cocina INSTITUT DERTOSA Joaquin Bau</strong>...</li>
+                <li data-i18n="education_course2"><strong>Sensei Ogawa Hirotoshi - Sushi Nagoya Schol, Portugal:</strong>...</li>
+                <li data-i18n="education_course3"><strong>Centurón Negro de Sushi (Kuro-Obi) - Sushi Nagoya Schol, Portugal:</strong>...</li>
             </ul>
         </section>
 
         <!-- Aptitudes -->
         <section class="skills">
-            <h3>Aptitudes</h3>
+            <h3 data-i18n="skills_title">Aptitudes</h3>
             <ul>
-                <li><i class="fas fa-check-circle text-primary"></i> Excelencia en técnicas de sushi: manejo del arroz,
-                    corte de pescado, preparación de nigiri, maki y omakase.</li>
-                <li><i class="fas fa-check-circle text-primary"></i> Higiene y seguridad alimentaria avanzada: control
-                    de riesgos y de temperatura.</li>
-                <li><i class="fas fa-check-circle text-primary"></i> Selección y conservación de ingredientes frescos,
-                    con énfasis en la frescura del pescado.</li>
-                <li><i class="fas fa-check-circle text-primary"></i> Atención personalizada en omakase y eventos
-                    privados.</li>
-                <li><i class="fas fa-check-circle text-primary"></i> Coordinación de equipos y organización de eventos
-                    de alta gastronomía.</li>
+                <li data-i18n="skill1"><i class="fas fa-check-circle text-primary"></i> Excelencia en técnicas de sushi...</li>
+                <li data-i18n="skill2"><i class="fas fa-check-circle text-primary"></i> Higiene y seguridad alimentaria avanzada...</li>
+                <li data-i18n="skill3"><i class="fas fa-check-circle text-primary"></i> Selección y conservación de ingredientes frescos...</li>
+                <li data-i18n="skill4"><i class="fas fa-check-circle text-primary"></i> Atención personalizada en omakase y eventos privados...</li>
+                <li data-i18n="skill5"><i class="fas fa-check-circle text-primary"></i> Coordinación de equipos y organización de eventos...</li>
             </ul>
         </section>
 
         <!-- Experiencia laboral -->
         <section class="experience">
-            <h3>Experiencia Laboral</h3>
+            <h3 data-i18n="experience_title">Experiencia Laboral</h3>
             <ul>
-                <li><strong>Sukomi Restaurante, Tarragona Tortosa (2018 - 2022):</strong> Durante cuatro años,
-                    desarrollé habilidades avanzadas en preparación de sushi, gestión de estaciones de sushi y servicio
-                    en eventos privados.</li>
-                <li><strong>Xerta Restaurante Kintsugui - Estrella Michelin, Barcelona (2022 - 2024):</strong> Como
-                    sushichef en este prestigioso restaurante, mis responsabilidades incluían servicio de omakase,
-                    eventos exclusivos y coordinación de personal.</li>
+                <li data-i18n="experience1"><strong>Sukomi Restaurante, Tarragona Tortosa (2018 - 2022):</strong>...</li>
+                <li data-i18n="experience2"><strong>Xerta Restaurante Kintsugui - Estrella Michelin, Barcelona (2022 - 2024):</strong>...</li>
             </ul>
         </section>
 
         <!-- Intereses -->
         <section class="interests">
-            <h3>Intereses</h3>
-            <p>Además de mi pasión por el sushi y la gastronomía japonesa, disfruto participar en competiciones de
-                cocina y explorar nuevas técnicas culinarias. También tengo un fuerte interés en la historia de la
-                cocina asiática y su cultura nipona. Me gusta asistir a eventos de cocina y seguir aprendiendo sobre el
-                arte de la preparación de sushi.</p>
+            <h3 data-i18n="interests_title">Intereses</h3>
+            <p data-i18n="interests_content">Además de mi pasión por el sushi y la gastronomía japonesa, disfruto participar en competiciones de cocina...</p>
         </section>
 
         <!-- Idiomas -->
         <section class="languages">
-            <h3>Idiomas</h3>
+            <h3 data-i18n="languages_title">Idiomas</h3>
             <ul>
-                <li><strong>Español:</strong> Nativo</li>
-                <li><strong>Catalán:</strong> Nativo</li>
-                <li><strong>Árabe:</strong> Nativo</li>
-                <li><strong>Inglés:</strong> Básico</li>
+                <li data-i18n="language_es"><strong>Español:</strong> Nativo</li>
+                <li data-i18n="language_cat"><strong>Catalán:</strong> Nativo</li>
+                <li data-i18n="language_ar"><strong>Árabe:</strong> Nativo</li>
+                <li data-i18n="language_en"><strong>Inglés:</strong> Básico</li>
             </ul>
         </section>
-
-
-
     </main>
 
     <footer>
-        <p class="textshow" id="textshow"></p>
-        <p>&copy; 2024 Brahim Ikigai. Todos los derechos reservados.</p>
+        <p id="textshow"></p>
+        <p data-i18n="footer_text">&copy; 2024 Brahim Ikigai. Todos los derechos reservados.</p>
     </footer>
 
     <!-- Scripts de Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/main.js"></script>
-
 </body>
-
 </html>

@@ -1,27 +1,31 @@
 {
+    "title": "Brahim Ikigai 🥢",
+    "name": "Brahim Ikigai",
+    "title_profession": "Professional Sushi Chef",
+    "intro_text": "Sushi chef with international experience, focused on excellence in Japanese cuisine.",
+    "photos_button": "Photos",
     "bio_title": "Biography",
     "bio_content": "I am a passionate and dedicated sushi chef, with a career driven by the pursuit of perfection in Japanese culinary art. I have competed at national and international levels, excelling in the Spanish and European Championships, where I achieved a black belt in sushi and sixth place in Europe. Each competition has taught me the importance of discipline, patience, and constant improvement in my art.",
     "education_title": "Education",
+    "education_course1": "Cooking Course INSTITUT DERTOSA Joaquin Bau, specialized training in cooking techniques.",
+    "education_course2": "Sensei Ogawa Hirotoshi - Sushi Nagoya Schol, Portugal: Specialized training in sushi techniques, covering rice handling, fish cutting, nigiri, maki, and omakase, along with knowledge in hygiene and food safety.",
+    "education_course3": "Black Belt in Sushi (Kuro-Obi) - Sushi Nagoya Schol, Portugal: Specialization in risk prevention techniques such as anisakis, with freezing and preservation practices to maintain the freshness and quality of fish.",
     "skills_title": "Skills",
+    "skill1": "Excellence in sushi techniques: rice handling, fish cutting, preparation of nigiri, maki, and omakase.",
+    "skill2": "Advanced hygiene and food safety: risk and temperature control.",
+    "skill3": "Selection and preservation of fresh ingredients, with an emphasis on fish freshness.",
+    "skill4": "Personalized attention in omakase and private events.",
+    "skill5": "Team coordination and organization of high-end gastronomy events.",
     "experience_title": "Work Experience",
+    "experience1": "Sukomi Restaurant, Tarragona Tortosa (2018 - 2022): For four years, I developed advanced skills in sushi preparation, sushi station management, and private event service.",
+    "experience2": "Xerta Restaurant Kintsugui - Michelin Star, Barcelona (2022 - 2024): As a sushi chef in this prestigious restaurant, my responsibilities included omakase service, exclusive events, and personnel coordination.",
     "interests_title": "Interests",
+    "interests_content": "In addition to my passion for sushi and Japanese cuisine, I enjoy participating in cooking competitions and exploring new culinary techniques. I also have a strong interest in the history of Asian cuisine and Japanese culture. I enjoy attending cooking events and continuing to learn about the art of sushi preparation.",
     "languages_title": "Languages",
-    "languages_list": ["Spanish: Native", "Catalan: Native", "Arabic: Native", "English: Basic"],
-    "education_list": [
-        "Cooking Course INSTITUT DERTOSA Joaquin Bau, specialized training in cooking techniques.",
-        "Sensei Ogawa Hirotoshi - Sushi Nagoya Schol, Portugal: Specialized training in sushi techniques, covering rice handling, fish cutting, nigiri, maki, and omakase, along with knowledge in hygiene and food safety.",
-        "Black Belt in Sushi (Kuro-Obi) - Sushi Nagoya Schol, Portugal: Specialization in risk prevention techniques such as anisakis, with freezing and preservation practices to maintain the freshness and quality of fish."
-    ],
-    "skills_list": [
-        "Excellence in sushi techniques: rice handling, fish cutting, preparation of nigiri, maki, and omakase.",
-        "Advanced hygiene and food safety: risk and temperature control.",
-        "Selection and preservation of fresh ingredients, with an emphasis on fish freshness.",
-        "Personalized attention in omakase and private events.",
-        "Team coordination and organization of high-end gastronomy events."
-    ],
-    "experience_list": [
-        "Sukomi Restaurant, Tarragona Tortosa (2018 - 2022): For four years, I developed advanced skills in sushi preparation, sushi station management, and private event service.",
-        "Xerta Restaurant Kintsugui - Michelin Star, Barcelona (2022 - 2024): As a sushi chef in this prestigious restaurant, my responsibilities included omakase service, exclusive events, and personnel coordination."
-    ],
-    "interests_content": "In addition to my passion for sushi and Japanese cuisine, I enjoy participating in cooking competitions and exploring new culinary techniques. I also have a strong interest in the history of Asian cuisine and Japanese culture. I enjoy attending cooking events and continuing to learn about the art of sushi preparation."
+    "language_es": "Spanish: Native",
+    "language_cat": "Catalan: Native",
+    "language_ar": "Arabic: Native",
+    "language_en": "English: Basic",
+    "footer_text": "&copy; 2024 Brahim Ikigai. All rights reserved.",
+    "quote_text": "Inspirational quote of the day"
 }

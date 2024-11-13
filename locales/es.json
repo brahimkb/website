@@ -1,27 +1,31 @@
 {
+    "title": "Brahim Ikigai 🥢",
+    "name": "Brahim Ikigai",
+    "title_profession": "Chef de Sushi Profesional",
+    "intro_text": "Chef de sushi con experiencia internacional, enfocado en la excelencia de la cocina japonesa.",
+    "photos_button": "Fotos",
     "bio_title": "Biografía",
     "bio_content": "Soy un chef de sushi apasionado y dedicado, con una carrera impulsada por la búsqueda de la perfección en el arte culinario japonés. He competido a nivel nacional e internacional, destacándome en el Campeonato de España y Europa, donde obtuve el cinturón negro en sushi y el sexto lugar en Europa. Cada competencia me ha enseñado la importancia de la disciplina, la paciencia y el perfeccionamiento constante en mi arte.",
     "education_title": "Formación",
+    "education_course1": "Curso de Cocina INSTITUT DERTOSA Joaquin Bau, Formación especializada en técnicas de cocina.",
+    "education_course2": "Sensei Ogawa Hirotoshi - Sushi Nagoya Schol, Portugal: Formación especializada en técnicas de sushi, abarcando el manejo del arroz, corte de pescado, nigiri, maki y omakase, además de conocimientos en higiene y seguridad alimentaria.",
+    "education_course3": "Centurón Negro de Sushi (Kuro-Obi) - Sushi Nagoya Schol, Portugal: Especialización en técnicas de prevención de riesgos como el anisakis, con prácticas de congelación y conservación del pescado para mantener su frescura y calidad.",
     "skills_title": "Aptitudes",
+    "skill1": "Excelencia en técnicas de sushi: manejo del arroz, corte de pescado, preparación de nigiri, maki y omakase.",
+    "skill2": "Higiene y seguridad alimentaria avanzada: control de riesgos y de temperatura.",
+    "skill3": "Selección y conservación de ingredientes frescos, con énfasis en la frescura del pescado.",
+    "skill4": "Atención personalizada en omakase y eventos privados.",
+    "skill5": "Coordinación de equipos y organización de eventos de alta gastronomía.",
     "experience_title": "Experiencia Laboral",
+    "experience1": "Sukomi Restaurante, Tarragona Tortosa (2018 - 2022): Durante cuatro años, desarrollé habilidades avanzadas en preparación de sushi, gestión de estaciones de sushi y servicio en eventos privados.",
+    "experience2": "Xerta Restaurante Kintsugui - Estrella Michelin, Barcelona (2022 - 2024): Como sushichef en este prestigioso restaurante, mis responsabilidades incluían servicio de omakase, eventos exclusivos y coordinación de personal.",
     "interests_title": "Intereses",
+    "interests_content": "Además de mi pasión por el sushi y la gastronomía japonesa, disfruto participar en competiciones de cocina y explorar nuevas técnicas culinarias. También tengo un fuerte interés en la historia de la cocina asiática y su cultura nipona. Me gusta asistir a eventos de cocina y seguir aprendiendo sobre el arte de la preparación de sushi.",
     "languages_title": "Idiomas",
-    "languages_list": ["Español: Nativo", "Catalán: Nativo", "Árabe: Nativo", "Inglés: Básico"],
-    "education_list": [
-        "Curso de Cocina INSTITUT DERTOSA Joaquin Bau, Formación especializada en técnicas de cocina.",
-        "Sensei Ogawa Hirotoshi - Sushi Nagoya Schol, Portugal: Formación especializada en técnicas de sushi, abarcando el manejo del arroz, corte de pescado, nigiri, maki y omakase, además de conocimientos en higiene y seguridad alimentaria.",
-        "Centurón Negro de Sushi (Kuro-Obi) - Sushi Nagoya Schol, Portugal: Especialización en técnicas de prevención de riesgos como el anisakis, con prácticas de congelación y conservación del pescado para mantener su frescura y calidad."
-    ],
-    "skills_list": [
-        "Excelencia en técnicas de sushi: manejo del arroz, corte de pescado, preparación de nigiri, maki y omakase.",
-        "Higiene y seguridad alimentaria avanzada: control de riesgos y de temperatura.",
-        "Selección y conservación de ingredientes frescos, con énfasis en la frescura del pescado.",
-        "Atención personalizada en omakase y eventos privados.",
-        "Coordinación de equipos y organización de eventos de alta gastronomía."
-    ],
-    "experience_list": [
-        "Sukomi Restaurante, Tarragona Tortosa (2018 - 2022): Durante cuatro años, desarrollé habilidades avanzadas en preparación de sushi, gestión de estaciones de sushi y servicio en eventos privados.",
-        "Xerta Restaurante Kintsugui - Estrella Michelin, Barcelona (2022 - 2024): Como sushichef en este prestigioso restaurante, mis responsabilidades incluían servicio de omakase, eventos exclusivos y coordinación de personal."
-    ],
-    "interests_content": "Además de mi pasión por el sushi y la gastronomía japonesa, disfruto participar en competiciones de cocina y explorar nuevas técnicas culinarias. También tengo un fuerte interés en la historia de la cocina asiática y su cultura nipona. Me gusta asistir a eventos de cocina y seguir aprendiendo sobre el arte de la preparación de sushi."
+    "language_es": "Español: Nativo",
+    "language_cat": "Catalán: Nativo",
+    "language_ar": "Árabe: Nativo",
+    "language_en": "Inglés: Básico",
+    "footer_text": "&copy; 2024 Brahim Ikigai. Todos los derechos reservados.",
+    "quote_text": "Cita inspiradora del día"
 }
