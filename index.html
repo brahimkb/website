@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="styles/style.css">
 </head>
-
+<div class="language-selector">
+    <button id="lang-es">ES</button>----<button id="lang-en">EN</button>
+  </div>
 <body>
 
     <!-- Encabezado con foto y nombre -->
@@ -24,7 +26,8 @@
                 <a href="https://www.linkedin.com/in/brahimikigai" target="_blank"><i class="fab fa-linkedin"></i></a>
                 <a href="mailto:bra2000@proton.me"><i class="fas fa-envelope"></i></a>
                 <a href="tel:+34631891703"><i class="fas fa-phone"></i></a>
-                <a href="extras.html" target="_blank" class="photos-btn"><i class="fas fa-camera"></i> Fotos</a>
+                <a href="extras.html" target="_blank" class="photos-btn"><i class="fas fa-camera"></i>Fotos</a>
+                <span class="blinking">🥢</span>
             </div>
 
         </div>
@@ -110,15 +113,16 @@
 
     </main>
 
-    <!-- Pie de página -->
     <footer>
-        <p>Contacto: <a href="mailto:bra2000@proton.me">bra2000@proton.me</a></p>
+        <p class="textshow" id="textshow"></p>
         <p>&copy; 2024 Brahim Ikigai. Todos los derechos reservados.</p>
     </footer>
 
     <!-- Scripts de Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
 
 </html>
