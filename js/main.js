@@ -16,20 +16,28 @@ document.addEventListener('DOMContentLoaded', function() {
  
 function loadLocale(locale) {
     fetch(`locales/${locale}.json`)
-      .then(response => response.json())
-      .then(translations => {
-        document.querySelectorAll("[data-i18n]").forEach(el => {
-          const key = el.getAttribute("data-i18n");
-          el.textContent = translations[key] || el.textContent;
-        });
-      })
-      .catch(error => console.error("Error loading locale:", error));
-  }
-   
-  document.addEventListener("DOMContentLoaded", () => {
-     loadLocale("es");
-  
-     document.getElementById("lang-es").addEventListener("click", () => loadLocale("es"));
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`Could not load ${locale} locale file`);
+            }
+            return response.json();
+        })
+        .then(translations => {
+            document.querySelectorAll("[data-i18n]").forEach(el => {
+                const key = el.getAttribute("data-i18n");
+                if (translations[key]) {
+                    el.innerHTML = translations[key];  // Usa innerHTML si necesitas soporte para HTML en traducciones
+                } else {
+                    console.warn(`Missing translation key: ${key}`);
+                }
+            });
+        })
+        .catch(error => console.error("Error loading locale:", error));
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+    loadLocale("es");
+
+    document.getElementById("lang-es").addEventListener("click", () => loadLocale("es"));
     document.getElementById("lang-en").addEventListener("click", () => loadLocale("en"));
-  });
-  
+});
